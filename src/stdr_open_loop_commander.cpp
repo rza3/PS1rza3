@@ -11,12 +11,12 @@ int main(int argc, char **argv) {
     double yaw_rate = 0.5; //0.5 rad/sec yaw rate command
     double time_3_sec = 3.0; // should move 3 meters or 1.5 rad in 3 seconds
     double time_4_sec = 4.0; //should move 4 meters 
-    double time_2_sec = 2.0;
-    double time_9_sec = 9.0;
-    double time_1_sec = 1;
-    double time_1_5_sec = 1.5;
-    double time_2_75_sec = 2.75;
-    double time_2_5_sec = 2.5;
+    double time_2_sec = 2.0; //should move 2 meters
+    double time_9_sec = 9.0; //should move 9 meters
+    double time_1_sec = 1; // should move 1 meter
+    double time_1_5_sec = 1.5; // should move 1.5 meters
+    double time_2_75_sec = 2.75; // should move 2.75 meters
+    double time_2_5_sec = 2.5; // should move 2.5 meters
       
     geometry_msgs::Twist twist_cmd; //this is the message type required to send twist commands to STDR 
     // start with all zeros in the command message; should be the case by default, but just to be safe..
