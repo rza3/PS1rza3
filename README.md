@@ -8,4 +8,6 @@ to start the simulator.  Run a simple, open-loop command sequence with:
 
 ## GitHub repository
 The code for this example can be found at: <https://github.com/rza3/PS1rza3>
-    
+
+## Video
+The video PS1\_rza3\_ECSE476.mp4 shows a video of the package being used to navigate to the upper left corner.
