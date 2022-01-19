@@ -7,5 +7,5 @@ to start the simulator.  Run a simple, open-loop command sequence with:
 `rosrun my_stdr_control stdr_open_loop_commander`
 
 ## GitHub repository
-The code for this example can be found at:
+The code for this example can be found at: <https://github.com/rza3/PS1rza3>
     
